@@ -29,3 +29,4 @@ A java plugin to manage roles and permissions.
 * XML/JSON
 
 
+Note - Under active development. Do not use it in your projects.
