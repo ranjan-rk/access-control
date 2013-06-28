@@ -4,10 +4,28 @@ access-control
 A java plugin to manage roles and permissions.
 
 
-Account
+* Account
 
-User 
+* User 
 
-Role
+* Role
 
-Permission
+* Permission
+
+
+
+#### Technology Used
+
+* Spring
+
+* Hibernate
+
+* Jersey
+
+* Mysql
+
+* JAXB
+
+* XML/JSON
+
+
