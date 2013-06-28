@@ -2,13 +2,15 @@ package com.ws.ac.orm.domain;
 
 import java.sql.Timestamp;
 
+import javax.persistence.Entity;
+
 import com.ws.ac.orm.framework.AbstractPersistable;
 
+@Entity
 public class PUser extends AbstractPersistable {
 
 	private String userName;
 	private String password;
-	private String status;
 	private Timestamp lastLogin;
 
 	/**
@@ -39,21 +41,6 @@ public class PUser extends AbstractPersistable {
 	 */
 	public void setPassword(String password) {
 		this.password = password;
-	}
-
-	/**
-	 * @return the status
-	 */
-	public String getStatus() {
-		return status;
-	}
-
-	/**
-	 * @param status
-	 *            the status to set
-	 */
-	public void setStatus(String status) {
-		this.status = status;
 	}
 
 	/**

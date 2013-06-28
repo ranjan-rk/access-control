@@ -1,5 +1,7 @@
 package com.ws.ac.orm.dao;
 
-public class RoleDAO {
+import com.ws.ac.orm.framework.AbstractDAO;
+
+public class RoleDAO extends AbstractDAO{
 
 }

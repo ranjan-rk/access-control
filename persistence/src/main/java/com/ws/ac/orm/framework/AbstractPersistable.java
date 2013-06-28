@@ -8,7 +8,7 @@ import com.ws.ac.orm.domain.PUser;
 
 @MappedSuperclass
 public abstract class AbstractPersistable {
-	
+
 	private String id;
 	private int version;
 
@@ -17,6 +17,8 @@ public abstract class AbstractPersistable {
 
 	private Timestamp lastModifiedDate;
 	private PUser lastModifiedBy;
+
+	private String status;
 
 	/**
 	 * @return the id
@@ -106,5 +108,20 @@ public abstract class AbstractPersistable {
 	 */
 	public void setLastModifiedBy(PUser lastModifiedBy) {
 		this.lastModifiedBy = lastModifiedBy;
+	}
+
+	/**
+	 * @return the status
+	 */
+	public String getStatus() {
+		return status;
+	}
+
+	/**
+	 * @param status
+	 *            the status to set
+	 */
+	public void setStatus(String status) {
+		this.status = status;
 	}
 }
