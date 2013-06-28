@@ -7,10 +7,10 @@ import javax.ws.rs.core.MediaType;
 
 import org.springframework.stereotype.Service;
 
-@Path("/permissions")
+@Path("/tenants")
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces({ MediaType.APPLICATION_JSON })
 @Service
-public class PermissionResource {
+public class TenantResource {
 
 }
