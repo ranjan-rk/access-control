@@ -8,7 +8,6 @@ import com.ws.ac.orm.framework.AbstractPersistable;
 
 @Entity
 public class PUser extends AbstractPersistable {
-
 	private String userName;
 	private String password;
 	private Timestamp lastLogin;
