@@ -4,7 +4,7 @@ access-control
 A java plugin to manage roles and permissions.
 
 
-* Account
+* Tenant
 
 * User 
 
